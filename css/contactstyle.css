@@ -1,0 +1,146 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    background: linear-gradient(rgba(0, 0, 50, 0,5),rgba(0, 0, 50, 0,5)),url("80-a-kontrast.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    font-family: sans-serif !important;
+
+			
+}
+
+.contact-title{
+    margin-top: 100px !important;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    transition: all 4s ease-in-out !important;
+}
+
+.contact-title h1{
+    font-size: 32px !important;
+    line-height: 10px !important;
+}
+
+.contact-title h2{
+    font-size: 16px !important;
+}
+form{
+    margin-top: 50px !important;
+    transition: all 4s ease-in-out !important;
+    margin: 0 !important;
+    margin: 0 auto;
+}
+
+.form-control{
+    width: 50rem !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid grey !important;
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+}
+
+.input{
+    height: 45px !important;
+}
+
+
+form .submit{
+    background: #ff5722 !important;
+    border-color: transparent !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    letter-spacing: 2px !important;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+.bbq-black{
+  background-color: #1d2120 !important;
+}
+.bbq-grey{
+  background-color: #5a5c51 !important;
+}
+.bbq-red{
+  background-color: #ba9077 !important;
+}
+.bbq-blue{
+  background-color: #bcd5d1 !important;
+}
+
+/*Eigene Farben*/
+.special-color-eigen{
+  background-color: #1a1a1a !important;
+}
+.special-color-eigen-op{
+  background-color: #1a1a1a !important;
+  opacity: 0.9 !important;
+}
+.text-nav-pad{
+  text-align: center !important;
+  font-size: 35px !important;
+}
+.nav-link{
+  padding-right: 10px;
+  margin-right: 10px !important;
+}
+.navbar-brand{
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+/*MEGA-MENU*/
+
+.navbar .mega-dropdown {
+  position: static !important; }
+
+.navbar .dropdown-menu.mega-menu {
+  width: 100%;
+  border: none;
+  border-radius: 0; }
+  .navbar .dropdown-menu.mega-menu.v-2 a {
+    padding: 5px 5px 5px 5px;
+    margin: 1px; }
+    .navbar .dropdown-menu.mega-menu.v-2 a.news-title-2 {
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      -webkit-transition: .2s;
+      transition: .2s;
+      color: #fff !important; }
+      .navbar .dropdown-menu.mega-menu.v-2 a.news-title-2:hover {
+        color: #d0d6e2 !important; }
+  .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul {
+    list-style: none; }
+    .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li {
+      -webkit-transition: .3s;
+      transition: .3s; }
+      .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        -webkit-transition: .3s;
+        transition: .3s; }
+      .navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li a:after {
+        font-family: "fontAwesome";
+        /*content: '\f0da';*/
+        position: absolute;
+        left: 0.5rem;
+        font-size: 12px;
+        top: 1rem; }
+  .navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item {
+    color: #fff !important; }
+    .navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item:hover {
+      color: #fff !important; }
+  .navbar .dropdown-menu.mega-menu.v-2 .sub-title {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid; }
+  .navbar .dropdown-menu.mega-menu.v-2 .font-small {
+    font-size: 0.85rem; }
+                
+
